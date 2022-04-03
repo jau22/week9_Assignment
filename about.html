@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>myGarageSale</title>
+</head>
+<body class = "container">
+    <!-- Top nav-->
+        <nav class = "navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class ="navbar-brand" href="index.html"> ourGarage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class = "navbar-nav">
+                <li class = "nav-item">
+                    <a class = "nav-link" href="index.html">Home</a>
+                </li>
+    <!-- drop down starts from here -->
+                <li class = "nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                       <li> <a class = "dropdown-item disabled" href="#"> Clothes</a> </li>
+                       <li> <a class = "dropdown-item disabled" href="#"> Furniture</a> </li>
+                       <li> <a class = "dropdown-item disabled" href="#"> Elecronics</a> </li>
+                    </ul>
+                </li>
+    
+                <li class = "nav-item">
+                    <a class = "nav-link active" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+    <!--top nav ends here-->
+
+<div class="container content">
+        
+      
+    <div class = "row">
+        <div class="col-lg-7">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Yard_Sale_Northern_CA_2005.JPG/1200px-Yard_Sale_Northern_CA_2005.JPG" class="about" >
+        </div>
+
+        <div class="col-lg-5">
+            <div class="about-us">
+            <h4>About Us</h4>
+            <p>Sourcing from a large number of individuals in the city, 
+                we receive a large amount of items from different demographics, cultures and 
+                eras. Our goal is to expand the horizon and the lifestyle of those who visit, 
+                and help them to be engage in these various cultures. </p>
+            </div>
+        </div>
+    <div class ="row">
+        <div class="section">
+            <div class = "career">
+            <h4>Interested in Working With Us?</h4>
+            <p>Fill in and submit the form below and we will reach out to you.</p>
+
+            <div class="form-floating mb-3">
+                <input type="name" class="form-control" id="floatingInput" placeholder="Sam Smith">
+                <label for="floatingInput">Full Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">E-mail Address</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="address" class="form-control" id="floatingInput" placeholder="4231 Main St Nessville">
+                <label for="floatingInput">Address</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="phone" class="form-control" id="floatingInputGrid" placeholder="(718)123-4567">
+                <label for="floatingInputGrid">Phone Number</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+         </div>
+    </div>
+
+    </div>
+</div>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

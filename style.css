@@ -1,0 +1,64 @@
+body{
+    background-color: #2f2f2f;
+}
+
+.content{
+    padding: 16px;
+    background-color: white;
+}
+
+.navbar-brand{
+    padding-left: 0.625rem;
+}
+
+img.banner{
+    min-height: 33vh;
+    max-height: 66vh;
+    height: 800px;
+    object-fit: cover;
+    object-position: 100% 15%;
+}
+
+img.about{
+    width:100%;
+}
+
+img.used-goods{
+    height:300px;
+    width:100%;
+    min-width: 300px;
+    object-fit:contain;
+}
+
+.in-row-text{
+    width:300px;
+    margin:auto;
+}
+
+.about-us{
+    max-width:450px;
+    width:100%;
+    margin:auto;
+    margin-top: 24px;
+    padding-right:16px;
+}
+
+.section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.career{
+    width:80%;
+    margin:auto;
+    min-width:450px;
+}
+
+.single-item{
+    width:100%;
+}
+
+.goods-info{
+    margin: auto;
+    width: 80%;
+}
